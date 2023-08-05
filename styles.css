@@ -1,0 +1,271 @@
+/* after adding classes in my html files i can call them here */
+/* body-create each page basic structure */
+body {
+   background-color: rgb(249, 225, 190); 
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: x-large;
+   border-color: rgb(255, 255, 255);
+   border-radius: 20px;
+}
+/* headers for each page */
+h1 {
+    color: rgb(203, 198, 247);
+    text-shadow: 4px 4px rgb(0,128,128);
+    text-align: center;
+    font-size: 100px;
+}
+/* menu button position */
+.nav-bar {
+    width: 100%; 
+    text-align:center;
+    padding: 1rem;
+    display:flex;
+    justify-content:center;
+
+}
+/* button design */
+.nav-item{
+    margin: 0.5rem;
+    padding: 0.05rem;
+    border-radius: 4px;
+    color:rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-item:hover {
+    background-color:rgb(0, 128, 128);
+    color:white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+/* basic design of who we are section */
+.who{
+    width:100%;
+    margin:3rem auto;
+    padding:3rem;
+    /* text-align:center; */
+    background-color:white; 
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display:flex;
+    align-items: center;
+
+}
+
+.who .content {
+    flex:1;
+}
+
+.who h2{
+    text-align: center;
+    color:rgb(0, 128, 128);
+    font-size:larger;
+}
+
+.who img{
+    /* float: right; */
+    filter:sepia();
+    /* width:50%; */
+    height: 300px;
+    max-width:50%;
+    margin-left: auto;
+    border-radius: 3% ;
+}
+
+.who p{
+    flex:1;
+    padding:20px;
+    border:none;
+    overflow: auto;
+    color:rgb(0, 0, 0);
+    font-size:20px;
+}
+/* basic design of what we do section */
+.what {
+    width:40%;
+    margin:5rem auto;
+    padding:1rem;
+    text-align:center;
+    float:center;
+    background-color:white; 
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color:rgb(0, 0, 0);
+    font-size:20px;
+}
+
+.what h2{
+    color:rgb(0, 128, 128);
+    font-size:larger;
+
+}
+/* .what ul{ */
+    /* overflow: auto; */
+    /* color:rgb(0, 0, 0); */
+    /* font-size:20px; */
+/* } */
+/* pictures on page */
+.work {
+    width:100%;
+    margin: 1rem;
+    clear:both;
+    /* float:none; */
+    /* display:outside;    */
+}
+
+.work img{
+    /* display:block; */
+    width: 400px;
+    height:300px;
+    margin:4rem auto;
+    padding: 4rem;
+    background-color:rgb(255, 255, 255);
+}
+
+.intro {
+    width: 80%;
+    color: rgba(8, 50, 35, 0.907);
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pete {
+    width: 40%;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    float: left;
+    flex-basis: auto;
+
+}
+
+.pete img{
+    background-color:rgb(255, 255, 255);
+    margin:1rem;
+    padding:2rem;
+    
+}
+
+.pete h3 {
+    overflow: auto;
+    color:rgb(0, 128, 128);
+    font-size: larger;
+}
+
+.pete p {
+    overflow: auto;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align:center;
+}
+
+.mike {
+    width: 40%;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    float: right;
+    flex-basis: auto;
+
+}
+
+.mike img{
+    background-color:rgb(255, 255, 255);
+    margin:1rem;
+    padding:2rem;
+    
+}
+
+.mike h3 {
+    overflow: auto;
+    color: rgb(0, 128, 128);
+    font-size: larger;
+}
+
+.mike p {
+    overflow: auto;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align:center;
+}
+.social {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.social h2 {
+    color: rgb(0, 128, 128);
+}
+
+.social table {
+    margin: 0 auto;
+}
+
+.social table th, .social table td {
+    padding: 0.5rem 1rem;
+}
+
+.social table th {
+    font-weight: bold;
+}
+
+.social table a {
+    color: rgb(0, 128, 255);
+
+}
+
+.social table a:hover {
+    color: rgb(0, 64, 128);
+}
+
+.quote {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.quote h2 {
+    color: rgb(0, 128, 128);
+}
+
+.quote form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.quote input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(0, 128, 128);
+    border-radius: 4px;
+}
+
+.quote input[type="submit"] {
+    background-color: rgb(0, 128, 128);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quote input[type="submit"]:hover {
+    background-color: rgb(0, 100, 100);
+}
